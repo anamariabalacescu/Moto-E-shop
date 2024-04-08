@@ -1,0 +1,42 @@
+.stack{
+    width: 100%;
+    background-color: rgb(190, 190, 190, 0.25);
+    z-index:10;
+    margin-left:-6rem;
+    height: fit-content;
+}
+
+.button{
+    border:none;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.form{
+    padding-top: 2rem;
+    color:aliceblue;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+.stackdata{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5rem;
+}
+
+.upgrade{
+    width: 15%;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.diamond{
+    color: aliceblue;
+    margin-right: 5px;
+}

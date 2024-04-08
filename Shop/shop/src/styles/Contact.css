@@ -1,0 +1,27 @@
+.label-text{
+    color: aliceblue;
+    justify-content: right;
+    text-align: right;
+}
+
+.nameBox{
+    width: 75%;
+    background-color: #fffaeb;
+    border-radius: 10px;
+    justify-content: left;
+}
+
+.emailBox{
+    width: 75%;
+    background-color: #fffaeb;
+    border-radius: 10px;
+    justify-content: left;
+}
+
+.messageBox{
+    width: 75%;
+    min-height: 300px;
+    background-color: #fffaeb;
+    border-radius: 10px;
+    justify-content: left;
+}

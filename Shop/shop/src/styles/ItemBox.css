@@ -1,0 +1,20 @@
+.card{
+    width: '18rem';
+    margin-bottom:'2rem';
+    display: 'flex';
+    position: 'sticky';
+    color:aliceblue;
+    background-color: rgba(23, 23, 23, 0.8);
+    border-radius: 60px;
+}
+
+.ft-box-img{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.card:hover{
+    background-color: rgb(160, 160, 160);
+    filter: grayscale(20%) brightness(70%);
+    color:rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,15 @@
+.footer{
+    background-color: #1f1f1f;
+    color:dimgray;
+    width: 100%;
+    display:flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.col{
+    direction: ltr;
+    text-align: left;
+}

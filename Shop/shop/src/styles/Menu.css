@@ -1,0 +1,91 @@
+.Menu{
+    background-color: #1f1f1f;
+    padding: 10px;
+}
+
+.button{
+    /* background-color:darkslateblue;
+    border-color: blue;
+    color:cornflowerblue; */
+    background-color: transparent;
+    border-color: blue;
+    color: blue;
+    justify-content: right;
+    align-items: right;
+}
+
+.custom-modal .modal-content{
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.span{
+    background-color: #fff;
+    position:absolute;
+    top:50%;
+    margin-left: -5px;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    color: #000;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.cart-title{
+    font-size: xx-large;
+}
+
+.cartTab{
+    background-color: #353432;
+    color: #eee;
+    width: 400px;
+    max-width: 100%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    display:grid;
+    grid-template-rows: 70px 1fr 70px;
+    z-index: 10;
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn Button{
+    border-radius: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+    width: 90%;
+}
+
+.cartTab .btn Button.close{
+    background-color: #eee;
+    color:#1f1f1f
+}
+
+.cartTab .listCart{
+    overflow: auto;
+}
+
+.cartTab .listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+.cartTab{
+    right: -400px;
+    transition: 0.5s;
+}
+
+.activeTabCart .container{
+    transform: translateX(-250px);
+}

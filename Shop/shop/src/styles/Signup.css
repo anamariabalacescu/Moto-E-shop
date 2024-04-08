@@ -1,0 +1,9 @@
+.container{
+}
+
+.icon{
+    background-color: wheat;
+    border-radius: 5px;
+    max-height: 45px;
+    max-width: 45px;
+}

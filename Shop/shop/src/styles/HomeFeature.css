@@ -1,0 +1,12 @@
+.ft-container {
+    max-width:100%;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* adjust column width as needed */
+    gap: 20px; /* adjust gap between items as needed */
+    justify-content: center;
+}
+
+
+.ft-box{
+    max-width: 80%;
+}

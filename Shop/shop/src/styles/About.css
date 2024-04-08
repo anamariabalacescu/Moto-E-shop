@@ -1,0 +1,23 @@
+.story{
+    padding: 50px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.p{
+    font-size: 20px;
+    direction: ltr;
+    text-align: justify;
+    color: aliceblue;
+    font-family:'-moz-initial';
+}
+
+.photo {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
